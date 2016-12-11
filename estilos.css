@@ -1,0 +1,104 @@
+body{
+   
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+
+    text-align: center;
+    font-weight: bold;
+    display: block;
+
+}
+h1{
+    color: navy;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+
+}
+h2{
+    color: red;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+
+    display: table-cell;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;            
+
+    width: 70%;
+}
+td{
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: groove;
+    padding: 5px;
+    text-align: center;
+
+    display: table-cell;
+}
+p{
+    font-size: 100%;
+    text-align: justify; 
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: #B40404;
+    font-weight: bold;
+}
+a:hover{
+    color: #FF8000;
+    font-weight: normal;
+}
+a:visited{
+    color: #BDBDBD;
+    font-weight: normal;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+
+    padding: 10px;
+    background-image: url(imagenes/geometry2.png);
+}
+li{
+    text-align: justify;
+    width: 90%;
+
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+div {
+    width: 561px;
+    height: 110px;
+    background-image: url(imagenes/diplomado.png);
+
+    margin: 20px; 
+    margin-left: auto;
+    margin-right: auto; 
+
+    cursor: none;
+
+    position: relative;
+    -webkit-animation: animacion 10s linear 1s infinite alternate; /* Chrome, Safari, Opera */
+    animation: animacion 10s linear 1s infinite alternate;
+}
+
+/
